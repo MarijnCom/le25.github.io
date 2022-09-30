@@ -1,0 +1,44 @@
+.rslides {
+    position:relative;
+    list-style: none;
+    overflow: hidden;
+    width: 700px;
+    padding: 0;
+   
+    }
+  
+  .rslides li {
+    position: absolute;
+    display: none;
+    width: 700px;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    }
+  
+  .rslides img {
+    display: block;
+    height: 200px;
+    width: 700px;
+    border: 0;
+    }
+
+   div{
+    display: flex;
+    justify-content: center;
+    
+   }
+
+   h2{
+    text-align: center;
+   }
+
+   .demo{
+    padding-left: 120px;
+   }
+
+   
